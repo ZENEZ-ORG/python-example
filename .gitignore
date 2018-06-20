@@ -1,10 +1,17 @@
+# my env config #
 .spyproject/
 __pycache__/
+temp/
+tmp/
 mnist/
-*.db
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.dump
+*.dmp
 
-# Compiled source #
-###################
+# bin files #
 *.com
 *.class
 *.dll
@@ -12,10 +19,7 @@ mnist/
 *.o
 *.so
  
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
+# Lib and Packages #
 *.7z
 *.dmg
 *.gz
@@ -25,13 +29,14 @@ mnist/
 *.tar
 *.zip
  
-# Logs and databases #
-######################
-*.log
+# databases #
+*.db
+*.mdb
 *.sql
 *.sqlite
+*.log
  
-# OS generated files #
+# other files #
 ######################
 .DS_Store*
 ehthumbs.db
