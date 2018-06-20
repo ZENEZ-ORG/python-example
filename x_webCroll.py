@@ -14,8 +14,6 @@ req = requests.get(url, headers=headers)
 soup = BeautifulSoup(req.text, 'lxml')
 res = soup.find_all("div", class_="list_content")
 
-
-
 f = open("test.html", 'w')
 f.write('{0}'.format(res[0]))
 f.close()
